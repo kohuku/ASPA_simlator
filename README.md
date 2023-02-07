@@ -7,7 +7,7 @@ This is simlator for ASPA validation
   `python3 add_data.py`
   
   (AS番号を0から1000個づつ１つのファイルにして出力してくれる)
-  * ditail_dic0にはASN 1~1000, ditail_dic1にはASN 1001~2000
+  * ditail_dic0にはASN 1〜1000, ditail_dic1にはASN 1001〜2000
   
 ### データの整形
 
