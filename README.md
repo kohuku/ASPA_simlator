@@ -23,6 +23,8 @@ This is simlator for ASPA validation
 
   `./sim.out [攻撃ASのAS番号] [ターゲットASのAS番号] [ASPVの導入AS数] < in`
   
+  
+  
 ・ASPVの導入AS数を変化させながら、複数のASから複数のASに攻撃を行って被害AS数を数え、有効性の値を出力する場合(実験で利用)
 
   `python3 attack.py`
