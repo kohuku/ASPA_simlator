@@ -1,7 +1,7 @@
 # ASPA_simlator
 This is simlator for ASPA validation
 
-[** 使い方]
+##使い方
 ・データの取得
   python3 add_data.py
   (AS番号を0から1000個づつ１つのファイルにして出力してくれる)
