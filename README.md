@@ -2,13 +2,13 @@
 This is simlator for ASPA validation
 
 ## 使い方
-・データの取得
+### データの取得
 
   python3 add_data.py
   
   (AS番号を0から1000個づつ１つのファイルにして出力してくれる)
   
-・データの整形
+### データの整形
 
   python3 find_rir.py > rir_asn
   
@@ -16,7 +16,7 @@ This is simlator for ASPA validation
   
   python3 cpp_siml_maker.py > in
   
-・シミュレーション
+### シミュレーション
 
   python3 attack.py
   
