@@ -10,5 +10,6 @@ for i in l:
     s=str(i)+" "
     s+=" ".join(l)
     s="./add_data.sh "+s
-    subprocess.call(s,shell=True)
+    subprocess.call(s,shell=True)　
+    ## subprocessで回さないとadd_data.shが複数のAS番号で同時に実行され、peersとdownsではBGPviewからダウンロードしてきたときの名前が競合するためデータが破損する
     
