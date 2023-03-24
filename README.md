@@ -8,6 +8,7 @@ This is simlator for ASPA validation
   
   (AS番号を0から1000個づつ１つのファイルにして出力してくれる)
   * ditail_dic0にはASN 1〜1000, ditail_dic1にはASN 1001〜2000
+  * データの初期フォーマットは、BGPviewから得られるデータの先頭にAS番号を追加したもの
   
 ### データの整形
 
@@ -25,7 +26,7 @@ This is simlator for ASPA validation
   
   
   
-  - ASPVの導入AS数を変化させながら、複数のASから複数のASに攻撃を行って被害AS数を数え、有効性の値を出力する場合(実験で利用)
+  - ASPVの導入AS数を変化させながら、複数のASから複数のASに攻撃を行って被害AS数を数え、有効性の値を出力する場合
 
   `python3 attack.py`
   
