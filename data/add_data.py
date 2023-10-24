@@ -1,6 +1,6 @@
 import subprocess
 
-start=int(input())
+start=0
 l=[x for x in range(64)]+[x for x in range(130,140)]
 for i in l:
     if(i<start//1000):continue
