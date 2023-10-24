@@ -1,4 +1,4 @@
-# ASPA_simlator
+# ASPA_simulator
 This is simlator for ASPA validation
 
 ## 使い方
